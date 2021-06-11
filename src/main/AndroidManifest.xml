@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.org.bjca.szyx.patient.sign.fingerdj">
+
+    <!--<uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.SEUIC_USB" />-->
+    <application>
+        <activity
+            android:name=".ui.FingerDjActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/FingerprintStyle" />
+    </application>
+
+</manifest>
